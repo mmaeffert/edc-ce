@@ -2,11 +2,11 @@ name: Documentation Checks
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, next ]
   release:
     types: [ published ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, next ]
 
 jobs:
   markdown-link-checks:
